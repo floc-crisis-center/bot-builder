@@ -1,0 +1,50 @@
+intents:
+  - greet
+  - goodbye
+
+entities:
+  - number
+
+slots:
+  welcome_message:
+    type: unfeaturized
+  main_menu_message:
+    type: unfeaturized
+  main_menu_options_count:
+    type: unfeaturized
+  # TODO: Change the following options slots to a custom slot?   
+  main_menu_option_1:
+    type: unfeaturized
+  main_menu_option_1_d:
+    type: unfeaturized    
+  main_menu_option_2:
+    type: unfeaturized
+  main_menu_option_2_d:
+    type: unfeaturized  
+  main_menu_option_3:
+    type: unfeaturized
+  main_menu_option_3_d:
+    type: unfeaturized
+  main_menu_option_4:
+    type: unfeaturized
+  main_menu_option_4_d:
+    type: unfeaturized
+  main_menu_option_5:
+    type: unfeaturized
+  main_menu_option_5_d:
+    type: unfeaturized                              
+
+forms:
+  - main_menu_form
+  - main_menu_options_form
+
+responses:
+  utter_greet:
+  - text: "custom_response"
+
+  utter_goodbye:
+  - text: "custom_response"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

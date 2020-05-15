@@ -1,0 +1,32 @@
+## intent:greet
+- hey
+- hello
+- hi
+- good morning
+- good evening
+- hey there
+- what's up?
+- what up
+- What up?
+- wassup?
+- howdy
+- howdy?
+- yo
+- YO
+- Hello
+- Morning
+- hi there
+- Hi there
+- hello There
+
+## intent:goodbye
+- bye
+- goodbye
+- see you around
+- see you later
+- ttyl
+- later!
+- Bye!
+- good bye!
+- later
+- later gater

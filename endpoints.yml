@@ -1,0 +1,5 @@
+action_endpoint:
+ url: "http://localhost:8080/api/v1/actions"
+
+nlg:
+  url: http://localhost:8080/api/v1/responses/bot-builder
